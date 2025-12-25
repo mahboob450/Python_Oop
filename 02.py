@@ -10,10 +10,11 @@ class Student:
     def __init__(self,name,marks):
         self.name=name
         self.marks=marks
+        print(self)  
 
 s1=Student("karan",98) 
 print(s1) #<__main__.Student object at 0x00000239431D6F90>
-# print(self)   
+ 
 
 print(s1.name,s1.marks)
 
