@@ -3,11 +3,13 @@
 
 class Car:
     def __init__(self):
+        self.presSelf=False
         self.acc=False
         self.brk=False
         self.clutch=False
 
     def start(self):
+        self.presSelf=True
         self.clutch=True
         self.acc=True
         print("Car started...")  

@@ -10,8 +10,7 @@ class Person:
     #     # Person.name="Rahul"
     #     self.__class__.name="Mukesh"
 
-    @classmethod #cls class ka reference hota hai -> class ko refer kerta hai
-#    ye @classmethod ke sath use hota hai (jaise self instance ke liye hota hai).
+    @classmethod      #cls class ka reference hota hai -> class ko refer kerta hai.ye @classmethod ke sath use hota hai (jaise self instance ke liye hota hai).                  
     def changeName(cls, name):
         cls.name=name
 

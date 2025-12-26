@@ -9,8 +9,8 @@ class Car:
     def start():
         print("car started..")
 
-    @staticmethod  # ->> koe v method static hone ka matlb ye hota hai ki har new instance k liye bo method bar bar create nhi hoga..puri class k liye common rhega..> kyo ki static methods instance attribute ko change kerta he nhi hai..-> it is used when na to class k attribute and nahi instance k attribute use ho rhe hai
-    # @staticmethod class ke andar aisa method hota hai jo self ya cls use nahi karta aur class/object dono se call ho sakta hai.
+    @staticmethod           # ->> koe v method static hone ka matlb ye hota hai ki har new instance k liye bo method bar bar create nhi hoga..puri class k liye common rhega..> kyo ki static methods instance attribute ko change kerta he nhi hai..-> it is used when na to class k attribute and nahi instance k attribute use ho rhe hai
+    def stop():             # @staticmethod class ke andar aisa method hota hai jo self ya cls use nahi karta aur class/object dono se call ho sakta hai.
         print("car stopped.")    
 
 class ToyotaCar(Car):
